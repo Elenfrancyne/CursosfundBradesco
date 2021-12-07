@@ -1,0 +1,53 @@
+/*CSS Document */
+a{
+	color:blue; /* classe*/
+}
+
+a.virtuais{ /* classe*/
+	color: #FF0000; 
+}
+
+a.estrategia{ /* classe*/
+	color:#11CC00;
+}
+
+body {
+	background-color: #90cde6; /* para inserir cor de plano de fundo*/
+	background-image: url('avatar.png');/*- para inserir imagem de plano de fundo */
+	background-repeat: no-repeat;/* estabelece forma de repetição horizontal, y= vertical, no-repeat= não repete*/
+	background-attachment: scroll;/* estabelece a rolagem do fundo em fixed*/
+	background-position: right top; /*especifica o posicionamento da imagem de fundo*/
+
+}
+
+h1{
+	font-size: 20px;
+	text-align: center; /* texto alinhado ao centro*/
+	text-decoration: underline; /* texto sublinhado abaixo*/
+	text-transform: uppercase; /*texto em maiusculo*/
+
+}
+h2{
+	color: red;
+}
+
+/*Propriedade para formatação do tesxto. O texto será alinhado a direita com cor azul e fonte Arial*/
+p{
+	text-align: right;/* texto alinhado a direita*/
+	color: blue;
+	font-family: arial, Serif, Verdana, Times; /* tipo da fonte*/
+	text-indent: 50px; /* recuo primeira linha do texto*/
+	font-style: italic; /* estilo da fonte italico*/
+
+}
+a:link { color: green;} /* não visitado*/
+a: visited {color: yellow;} /* já visitados*/
+a: hover {color: black;} /*mouse sobre*/
+a: activa {color: blue;} /*links ativos*/
+
+#c1-2{ /*classe*/
+	color: #FF3536;/*cor  da classe*/
+}
+span.alimento{color: red;}
+#insetos{background: #FFEAEA;}
+#repteis {background: #FFF7DD;}
